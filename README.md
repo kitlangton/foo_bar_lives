@@ -18,8 +18,6 @@ Implement comb sort with JavaScript, and comment your code to explain what each 
 Open `comb-sort/combSort.js` to get coding.
 To test the code quickly, open `comb-sort/index.html` in your browser to run [QUnit](https://qunitjs.com) tests.
 
-
-
 ## Part 3: Grocery CRUD
 
 Create a dirt simple grocery list app with JavaScript and jQuery.
