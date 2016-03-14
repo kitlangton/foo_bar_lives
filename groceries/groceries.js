@@ -6,10 +6,12 @@ var addItem = function(name){
   }
   var newItem = $('<div>');
   newItem.addClass('item');
+  newItem.addClass('list-group-item');
   var deleteBtn = $('<span>');
-  deleteBtn.text(' Delete');
-  deleteBtn.addClass(' delete');
-  newItem.text(name);
+  deleteBtn.text('Delete');
+  deleteBtn.addClass('');
+  deleteBtn.addClass('btn btn-danger');
+  newItem.text(name + "  ");
   newItem.append(deleteBtn);
   deleteBtn.click(function() {
     newItem.fadeOut();
